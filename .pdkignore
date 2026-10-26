@@ -49,3 +49,10 @@ bolt-debug.log
 /.vscode/
 /.sync.yml
 /.devcontainer/
+/.*.yml
+/pdk.yaml
+/.pmtignore
+/fetch_checksums.sh
+/.git*
+/.editorconfig
+/provision.yaml

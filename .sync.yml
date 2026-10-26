@@ -6,6 +6,16 @@ appveyor.yml:
 .travis.yml:
   delete: true
 
+.pdkignore:
+  paths:
+    - /.*.yml
+    - /pdk.yaml
+    - /.pmtignore
+    - /fetch_checksums.sh
+    - /.git*
+    - /.editorconfig
+    - /provision.yaml
+
 .rubocop.yml:
   default_configs:
     inherit_from: ".rubocop_todo.yml"

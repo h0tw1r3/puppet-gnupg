@@ -2,11 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.0.2](https://github.com/h0tw1r3/puppet-gnupg/tree/2.0.1) (2024-11-29)
+## [2.0.3](https://github.com/h0tw1r3/puppet-gnupg/tree/2.0.3) (2026-10-26)
+
+**Dependencies**
+
+* Support stdlib < 11
+
+**Chores**
+
+* Update tested OS versions
+* Update PDK template 3.8.0
+
+## [2.0.2](https://github.com/h0tw1r3/puppet-gnupg/tree/2.0.2) (2024-11-29)
 
 **Bugfixes**
 
 * Could not find terminus http
+
+**Chores**
+
+* Update tested OS versions
+
+## [2.0.1](https://github.com/h0tw1r3/puppet-gnupg/tree/2.0.1) (2023-12-29)
 
 **Chores**
 
