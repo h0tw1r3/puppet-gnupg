@@ -22,6 +22,9 @@ appveyor.yml:
 Rakefile:
   default_disabled_lint_checks:
     - '140chars'
+  changelog_user: h0tw1r3
+  changelog_since_tag: "1.5.1"
+  changelog_version_tag_pattern: "%s"
 
 spec/spec_helper.rb:
   coverage_report: true
