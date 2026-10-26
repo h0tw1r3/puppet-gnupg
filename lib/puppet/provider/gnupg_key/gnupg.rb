@@ -125,7 +125,7 @@ Puppet::Type.type(:gnupg_key).provide(:gnupg) do
     # public and both can be grouped since private can't be present without public,
     # both only applies to delete and delete still has something to do if only
     # one of the keys is present
-    if resource[:key_type] == :public || resource[:key_type] == :both
+    if [:public, :both].include?(resource[:key_type])
       command = "gpg --list-keys --with-colons #{resource[:key_id]}"
     elsif resource[:key_type] == :private
       command = "gpg --list-secret-keys --with-colons #{resource[:key_id]}"
